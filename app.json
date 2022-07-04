@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "E-Calculator",
+    "slug": "E-Calculator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/splash2.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash2.png",
+      "resizeMode": "contain",
+      "width":"100%",
+      "height":"100%",
+      "backgroundColor": "#0492de"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/splash2.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/splash2.png"
+    }
+  }
+}
